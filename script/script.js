@@ -141,3 +141,28 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+// for resume
+
+function resumeD() {
+    // Assuming the file is hosted on Google Drive and has a shareable link
+    // var fileID = "1nj_rn9cnPROoZRWOa_guvXPqCcheN1M3";
+    // var downloadLink = "https://drive.google.com/uc?export=download&id=" + fileID;
+    downloadLink = "https://drive.google.com/file/d/1nj_rn9cnPROoZRWOa_guvXPqCcheN1M3/view?usp=sharing"
+
+    // Create a hidden anchor element
+    var a = document.createElement("a");
+    a.href = downloadLink;
+    a.target = "_blank";
+
+    // Set the anchor text to the file name
+    a.download = "Md-Afsar-Ansari-ressume.pdf";
+    
+    // Append the anchor to the document and trigger the click event
+    document.body.appendChild(a);
+    a.click();
+
+    // Remove the anchor from the document
+    document.body.removeChild(a);
+    
+
+}

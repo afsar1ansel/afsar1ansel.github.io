@@ -846,6 +846,7 @@ img {
     text-align: center;
     color: var(--text-color-light);
     margin-top: var(--mb-3);
+    color: white;
 }
 
 .footer_title,
@@ -928,6 +929,13 @@ img {
     .qualification_data {
         gap: 0.5rem;
     }
+
+    .regular{
+        /* border: red solid 1px; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
 /* ====== For medium devices ====== */
@@ -970,6 +978,8 @@ img {
     .skills_container {
         gap: 5rem;
     }
+
+    
 }
 
 @media screen and (min-width: 767px) {
@@ -977,6 +987,8 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
+
+    
 
     .body {
         margin: 0;
@@ -1086,6 +1098,8 @@ img {
     .footer_social {
         font-size: 1.75rem;
     }
+
+    
 }
 
 /* ====== For large devices ====== */
@@ -1226,16 +1240,31 @@ img {
       width: 85%;
       background-color: black;
     }
+
+    .regular{
+        /* border: red solid 1px; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+  
   }
   
   /* For small tablets */
   @media screen and (min-width: 480px) and (max-width: 768px) {
     /* CSS styles for small tablets */
+    .regular{
+        /* border: red solid 1px; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
   }
   
   /* For larger tablets and smaller laptops */
   @media screen and (min-width: 768px) and (max-width: 992px) {
     /* CSS styles for larger tablets and smaller laptops */
+    
   }
   
   /* For desktop screens */
