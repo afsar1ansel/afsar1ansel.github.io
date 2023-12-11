@@ -674,7 +674,7 @@ img {
 }
 
 /*==================== PROJECTS ====================*/
-.portfolio_container {
+/* .portfolio_container {
     overflow: initial;
 }
 
@@ -739,7 +739,7 @@ img {
     outline: none;
 }
 
-
+ */
 
 
 
@@ -964,7 +964,6 @@ img {
 
     .about_container,
     .skills_container,
-    .portfolio_content,
     .contact_container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1087,9 +1086,9 @@ img {
         gap: 5rem;
     }
 
-    .portfolio_img {
+    /* .portfolio_img {
         width: 320px;
-    }
+    } */
 
     .portfolio_content {
         align-items: center;
@@ -1160,10 +1159,10 @@ img {
         gap: 10rem;
     }
 
-    .portfolio_img {
+    /* .portfolio_img {
         height: 300px;
         width: auto;
-    }
+    } */
 
     .swiper-portfolio-icon {
         font-size: 3.5rem;
@@ -1247,6 +1246,15 @@ img {
         flex-direction: column;
         width: 100%;
     }
+
+    #portfolio > #portfolio_box{
+        width: 80%;
+        /* border: solid red 1px; */
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+      }
   
   }
   
@@ -1259,6 +1267,15 @@ img {
         flex-direction: column;
         width: 100%;
     }
+
+    #portfolio > #portfolio_box{
+        width: 80%;
+        /* border: solid red 1px; */
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+      }
   }
   
   /* For larger tablets and smaller laptops */
@@ -1499,4 +1516,122 @@ img {
   #most-lang {
     /* border: 4px solid red; */
     width: 355px;
+  }
+
+  /* project start */
+  
+  #portfolio_box{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+   
+  
+  .portfolio_card{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 1%;
+  }
+
+  .portfolio_btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+  }
+  
+
+  .portfolio_links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teck{
+    font-size: 12px;
+    font-weight: 600;
+    color: #D33A2C;
+    margin: 0;
+    padding: 0;
+  }
+  .teck_stacks{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .teck_stack{
+    font-size: 12px;
+    font-weight: 300;
+    color: #D33A2C;
+    margin: 0;
+    padding: 0;
+  }
+  .teck_stack:hover{
+    text-decoration: dotted underline;
+  }
+  
+  
+  
+  /* ----------------btn--------------- */
+
+  .button-45 {
+    align-items: center;
+    background-color: #FFE7E7;
+    background-position: 0 0;
+    border: 1px solid #FEE0E0;
+    border-radius: 11px;
+    box-sizing: border-box;
+    color: #D33A2C;
+    cursor: pointer;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 33.4929px;
+    list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+    padding: 2px 12px;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: none;
+    text-underline-offset: 1px;
+    transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    word-break: break-word;
+    width: 100%;
+  }
+  
+  .button-45:active,
+  .button-45:hover,
+  .button-45:focus {
+    outline: 0;
+  }
+  
+  
+  .button-45:active {
+    background-color: #D33A2C;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+    color: #FFFFFF;
+  }
+  
+  .button-45:hover {
+    background-color: #FFE3E3;
+    border-color: #FAA4A4;
+  }
+  
+  .button-45:active:hover,
+  .button-45:focus:hover,
+  .button-45:focus {
+    background-color: #D33A2C;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+    color: #FFFFFF;
+  }
+
+  .portfolio_title{
+    margin: 0 auto;
   }
