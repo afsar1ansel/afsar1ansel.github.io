@@ -147,7 +147,7 @@ function resumeD() {
   // var fileID = "1nj_rn9cnPROoZRWOa_guvXPqCcheN1M3";
   // var downloadLink = "https://drive.google.com/uc?export=download&id=" + fileID;
   downloadLink =
-    "https://drive.google.com/file/d/1vLDNqijFIOul-19MWBU7WBJWn8J5lNb1/view?usp=sharing";
+    "https://drive.google.com/file/d/1RGu1c1O29l0pLp5y19CKSUIEhU_wkJ4j/view?usp=sharing";
 
   // Create a hidden anchor element
   var a = document.createElement("a");
